@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Camera Lens Simulation</title>
+  <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Camera Lens Simulation</h1>
+    <div class="controls">
+      <label for="lens-select">Choose a lens:</label>
+      <select id="lens-select">
+        <option value="18">18mm</option>
+        <option value="24">24mm</option>
+        <option value="35">35mm</option>
+        <option value="50">50mm</option>
+        <option value="85">85mm</option>
+        <option value="135">135mm</option>
+      </select>
+    </div>
+    <div class="image-preview">
+      <img id="sample-image" src="/public/images/sample1.jpg" alt="Sample Image">
+    </div>
+  </div>
+  <script src="/src/js/script.js"></script>
+</body>
+</html>
